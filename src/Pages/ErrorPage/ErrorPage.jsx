@@ -1,7 +1,7 @@
 import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { Link } from "react-router";
-
+//error page
 const ErrorPage = () => {
   return (
     <div className="h-screen">
