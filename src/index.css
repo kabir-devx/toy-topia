@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 @import "tailwindcss";
-
 @plugin "daisyui" {
   themes: light --default;
 }
-
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
@@ -17,14 +15,13 @@
   --color-accent: #666666;
 }
 
-.baloo {
+.baloo{
   font-family: "Baloo 2", sans-serif;
 }
-
-* {
+*{
   font-family: "Nunito Sans", sans-serif;
 }
 
-a.active {
+a.active{
   @apply text-primary font-bold;
 }
